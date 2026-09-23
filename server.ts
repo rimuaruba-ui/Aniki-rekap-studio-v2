@@ -32,12 +32,6 @@ async function startServer() {
       } else if (modelType === "gemini-3-5-flash") {
         endpoint = "https://api.kie.ai/gemini/v1/models/gemini-3-5-flash:streamGenerateContent";
         isGeminiStreamFormat = true;
-      } else if (modelType === "gemini-3-pro") {
-        endpoint = "https://api.kie.ai/gemini-3-pro/v1/chat/completions";
-        isGeminiStreamFormat = false;
-      } else if (modelType === "gemini-3.1-pro") {
-        endpoint = "https://api.kie.ai/gemini-3.1-pro/v1/chat/completions";
-        isGeminiStreamFormat = false;
       } else {
         return res.status(400).json({ error: `Model KIE AI tidak dikenal: ${modelType}` });
       }
