@@ -7,11 +7,25 @@ export const KIE_MODELS = [
     endpoint: 'https://api.kie.ai/gemini/v1/models/gemini-3-6-flash:streamGenerateContent',
   },
   {
+    id: 'gemini-3.1-pro' as const,
+    name: 'Gemini 3.1 Pro',
+    badge: 'OpenAI Chat',
+    desc: 'Model Pro penalaran tinggi untuk komik kompleks dengan deskripsi adegan mendalam.',
+    endpoint: 'https://api.kie.ai/gemini-3.1-pro/v1/chat/completions',
+  },
+  {
     id: 'gemini-3-5-flash' as const,
     name: 'Gemini 3.5 Flash',
     badge: 'Stream Native',
     desc: 'Model cepat dan efisien cocok untuk naskah komik panjang dengan banyak gambar.',
     endpoint: 'https://api.kie.ai/gemini/v1/models/gemini-3-5-flash:streamGenerateContent',
+  },
+  {
+    id: 'gemini-3-pro' as const,
+    name: 'Gemini 3 Pro',
+    badge: 'OpenAI Chat',
+    desc: 'Model Pro standar dengan kualitas penceritaan yang seimbang dan kaya.',
+    endpoint: 'https://api.kie.ai/gemini-3-pro/v1/chat/completions',
   },
 ];
 
