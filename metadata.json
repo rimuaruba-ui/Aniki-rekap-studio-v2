@@ -1,0 +1,5 @@
+{
+  "name": "AniKi Recap Studio - Manhwa & Manga AI Story Studio",
+  "description": "Studio pembuatan naskah alur cerita Manhwa & Manga terurut dengan pemrosesan batch 6 gambar (1 gambar = 1 paragraf), Text-to-Speech, dan penggabungan naskah lengkap.",
+  "requestFramePermissions": []
+}
